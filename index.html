@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="https://logodix.com/logo/76119.png">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#section3">Products</a></li>
+                <li><a href="#">Support</a></li>
+                <button id="cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+            </ul>
+        </header>
+
+        <div class="cart-shopping">
+          <button id="close-btn"><i class="fa-solid fa-xmark"></i></button>
+          <div id="cart-product"></div>
+          <div id="totalPrice"></div>
+        </div>
+
+        <div class="content">
+            <div class="text">
+                <h1>cancel noise stay inspired</h1>
+                <p>Featuring Active Noise Cancelling that gives you the space to create with fully immersive sound.</p>
+                <div class="buy-text">
+                    <p>limited time offer</p>
+                    <div class="price">
+                        <p>$299.55</p>
+                    </div>  
+                </div>
+                <button id="buy-btn">buy now <i class="fa-solid fa-angle-right"></i></button>
+            </div>
+
+            <div class="image">
+                <img id="headphone-img" src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MQTQ3?wid=532&hei=582&fmt=png-alpha&.v=1687660671363">
+                <div class="colors-change">
+                    <button id="blue-btn"></button>
+                    <button id="gold-btn"></button>
+                    <button id="red-btn"></button>
+                    <button id="brown-btn"></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="section3" id="section3">
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
